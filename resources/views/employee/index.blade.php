@@ -24,21 +24,21 @@
                     @csrf
                     <div class="row">
                         <div class="col-md-6 mt-3">
-                            <label>First Name</label>
+                            <label>FirstName</label>
                             <input type="text" class="form-control" name="firstname" value="{{ old('firstname') }}" placeholder="Enter Firstname">
                             @if ($errors->has('firstname'))
                                 <ul class="text-danger mt-2"><li>{{ $errors->first('firstname') }}</li></ul>
                             @endif
                         </div>
                         <div class="col-md-6 mt-3">
-                            <label>Last Name</label>
+                            <label>LastName</label>
                             <input type="text" class="form-control" name="lastname" value="{{ old('lastname') }}" placeholder="Enter Lastname">
                             @if ($errors->has('firstname'))
                                 <ul class="text-danger mt-2"><li>{{ $errors->first('lastname') }}</li></ul>
                             @endif
                         </div>
                         <div class="col-md-6 mt-3">
-                            <label>DATE OF BIRTH</label>
+                            <label>Date of Birth</label>
                             <input type="date" class="form-control" name="DOB" value="{{ old('DOB') }}">
                             @if ($errors->has('firstname'))
                                 <ul class="text-danger mt-2"><li>{{ $errors->first('DOB') }}</li></ul>
