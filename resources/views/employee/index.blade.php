@@ -38,7 +38,7 @@
                             @endif
                         </div>
                         <div class="col-md-6 mt-3">
-                            <label>DOB</label>
+                            <label>DATE OF BIRTH</label>
                             <input type="date" class="form-control" name="DOB" value="{{ old('DOB') }}">
                             @if ($errors->has('firstname'))
                                 <ul class="text-danger mt-2"><li>{{ $errors->first('DOB') }}</li></ul>
