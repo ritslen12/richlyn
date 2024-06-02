@@ -56,10 +56,10 @@
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
         <!-- Brand Logo -->
         <a href="/" class="brand-link">
-            <img src="{{ asset('images/Logo.jpg') }}" alt="Logo"
+            <img src="{{ asset('images/SUUR.jpg') }}" alt="Logo"
                  class="brand-image img-circle elevation-3"
                  style="opacity: 1">
-            <span class="brand-text font-weight-light">System Techie</span>
+            <span class="brand-text font-weight-light">SUUR</span>
         </a>
 
         @include('layouts.navigation')
@@ -88,7 +88,7 @@
             Anything you want
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2023-2024 <a href="https://adminlte.io">SUUR</a>.</strong> All rights reserved.
     </footer>
 </div>
 <!-- ./wrapper -->
